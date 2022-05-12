@@ -1,34 +1,30 @@
-.para,
-.small-para {
-  color: hsl(0, 100%, 50%);
-}
-
-.small-para {
-  font-size: 14px;
-}
-
 .para {
-  font-size: 22px;
+    color: red;
+    font-size: 36px;
+    font-family: "Comic Sans", sans-serif
 }
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
+.para.small-para {
+    font-size: 24px;
 }
 
-.child {
-  color: red;
-  font-size: 14px;
+button {
+    font-size: 36px;
 }
 
-div.text {
-  color: green;
-  font-size: 22px;
+#confirm-button {
+    color: white;
+    background-color: green;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+div {
+    color: green;
+    font-size: 32px;
+}
+
+.text.child {
+    color: red;
+    font-size: 24px;
 }
